@@ -1,0 +1,23 @@
+version: 2
+registries:
+  moonetix:
+    type: npm-registry
+    url: https://moonetix.com/npm/
+updates:
+  - package-ecosystem: npm
+    directory: /
+    registries:
+      - moonetix
+    schedule:
+      interval: weekly
+    groups:
+      expo:
+        patterns:
+          - "expo"
+          - "react"
+          - "react-native"
+          - "@types/react"
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
