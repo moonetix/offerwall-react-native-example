@@ -1,0 +1,30 @@
+{
+  "name": "offerwall-react-native-example",
+  "version": "1.0.0",
+  "description": "React Native and Expo app that opens the Moonetix offerwall with a single-use session from your own server.",
+  "private": true,
+  "license": "MIT",
+  "main": "index.ts",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild": "expo prebuild",
+    "typecheck": "tsc --noEmit",
+    "server": "npm --prefix server start",
+    "test": "npm --prefix server test && node --disable-warning=ExperimentalWarning --test 'test/*.test.ts'"
+  },
+  "dependencies": {
+    "@moonetix/react-native-offerwall": "2.0.0",
+    "expo": "58.0.24",
+    "react": "19.3.0",
+    "react-native": "0.88.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "6.0.3"
+  }
+}

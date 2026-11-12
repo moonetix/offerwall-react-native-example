@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Earn Coins Example",
+    "slug": "offerwall-react-native-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.moonetix.example.offerwall"
+    },
+    "ios": {
+      "bundleIdentifier": "com.moonetix.example.offerwall"
+    },
+    "plugins": [
+      "@moonetix/react-native-offerwall"
+    ]
+  }
+}
