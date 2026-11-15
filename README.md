@@ -5,13 +5,12 @@
 [![CI](https://github.com/moonetix/offerwall-react-native-example/actions/workflows/ci.yml/badge.svg)](https://github.com/moonetix/offerwall-react-native-example/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-React%20Native%20SDK-004ABB)](https://docs.moonetix.com/react-native-sdk)
-[![Get keys](https://img.shields.io/badge/get%20keys-moonetix.com-004ABB)](https://moonetix.com/register?from=github-offerwall-react-native-example)
 [![@moonetix/react-native-offerwall 2.0.1](https://img.shields.io/badge/%40moonetix%2Freact--native--offerwall-2.0.1-61DAFB)](https://moonetix.com/integrations/react-native)
 [![Expo SDK 58](https://img.shields.io/badge/expo-SDK%2058-000020)](https://moonetix.com/academy/integrations/react-native-offerwall)
 
 An Android and iOS app built with the [Moonetix](https://moonetix.com) `@moonetix/react-native-offerwall` package, plus a Node.js server in `server/`. Moonetix is an affiliate network: your users earn your own currency by completing offers, and you earn per completed offer. The JavaScript bundle holds no key. Your server creates a single-use session for the signed-in user, and only your server changes balances.
 
-> **Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-react-native-example**
+> To run it you need your Moonetix App ID and keys: see [Get started](#get-started).
 
 ## What you get
 
@@ -177,7 +176,7 @@ npx github:moonetix/postback-tester --preset moonetix \
 
 ## Get started
 
-**Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-react-native-example**
+Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-react-native-example
 
 Every publisher application is reviewed by hand. Once you are approved, add your app, set your currency name and rate, and paste the keys into `.env` and `server/.env`.
 
